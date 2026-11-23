@@ -1,0 +1,95 @@
+<mjml>
+  <mj-body background-color="#f7eeea" width="600px">
+
+    <mj-section background-color="#f2e2dc" padding-top="30px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-ca-logo.png" alt="Repeat" width="130px" height="36px" align="center" href="https://repeatonline.com.br" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f2e2dc" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-ca-hero.jpg" alt="Esqueceu algo? 5% OFF pra finalizar seu pedido" width="600px" href="{{carrinho_url}}" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-if--primeiro_nome" background-color="#ffffff" padding-top="34px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24px" font-weight="700" line-height="30px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px">Oi, {{primeiro_nome}}!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-ifnot--primeiro_nome" background-color="#ffffff" padding-top="34px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24px" font-weight="700" line-height="30px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px">Oi!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0px" padding-right="48px" padding-bottom="26px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17px" line-height="27px" color="#571713" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Você separou uns snacks e o pedido ficou pela metade. Tá tudo guardadinho no seu carrinho, e pra dar aquele empurrão a gente liberou <strong>5% OFF</strong> pra você finalizar.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-if--carrinho_produto_imagem" background-color="#ffffff" padding-top="0px" padding-right="48px" padding-bottom="24px" padding-left="48px">
+      <mj-column background-color="#f2e2dc" border-radius="18px" padding-top="20px" padding-right="16px" padding-bottom="20px" padding-left="16px">
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12px" font-weight="700" line-height="16px" letter-spacing="2.5px" color="#a64208" padding-top="0px" padding-right="0px" padding-bottom="14px" padding-left="0px">NO SEU CARRINHO</mj-text>
+        <mj-image src="{{carrinho_produto_imagem}}" alt="{{carrinho_produto_nome}}" width="130px" border-radius="14px" href="{{carrinho_url}}" padding-top="0px" padding-right="0px" padding-bottom="14px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16px" font-weight="700" line-height="22px" color="#571713" padding-top="0px" padding-right="10px" padding-bottom="6px" padding-left="10px">{{carrinho_produto_nome}}</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14px" line-height="20px" color="#8a4b3f" padding-top="0px" padding-right="10px" padding-bottom="0px" padding-left="10px"><span style="white-space:nowrap;">Itens no carrinho: {{carrinho_qtd_itens}}</span> &nbsp;·&nbsp; <span style="white-space:nowrap;">Total: <strong>{{carrinho_total}}</strong></span></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column background-color="#ffffff" border="2px dashed #d4471a" border-radius="18px" padding-top="22px" padding-right="12px" padding-bottom="22px" padding-left="12px">
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12px" font-weight="700" line-height="16px" letter-spacing="2.5px" color="#a64208" padding-top="0px" padding-right="0px" padding-bottom="8px" padding-left="0px">SEU CUPOM DE 5% OFF</mj-text>
+        <mj-text align="center" font-family="'HWT Artz', 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBold', 'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-size="42px" font-weight="700" line-height="48px" letter-spacing="2px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="8px" padding-left="0px"><span style="white-space:nowrap;">5%CARRINHO</span></mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14px" line-height="20px" color="#571713" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Digite no checkout, no campo de cupom</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="24px" padding-right="48px" padding-bottom="40px" padding-left="48px">
+      <mj-column>
+        <mj-button href="{{carrinho_url}}" background-color="#d4471a" color="#ffffff" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="18px 24px" width="100%" padding-top="0px" padding-right="0px" padding-bottom="14px" padding-left="0px">FINALIZAR MEU PEDIDO</mj-button>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" line-height="19px" color="#8a4b3f" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Ficou com alguma dúvida? <a href="https://wa.me/5511947947874" style="color:#d4471a;font-weight:700;text-decoration:underline;">Chama a gente no WhatsApp</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#d4471a" padding-top="38px" padding-right="40px" padding-bottom="8px" padding-left="40px">
+      <mj-column>
+        <mj-text align="center" font-family="'HWT Artz', 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBold', 'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-size="34px" font-weight="700" line-height="38px" color="#ffffff" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">FEITO PRA REPETIR</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#d4471a" padding-top="18px" padding-right="24px" padding-bottom="10px" padding-left="24px">
+      <mj-column padding-top="0px" padding-right="8px" padding-bottom="18px" padding-left="8px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-ca-icone-vagem.png" alt="" width="56px" height="56px" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" line-height="21px" color="#ffffff" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"><strong style="font-size:16px;">Até 13g de proteína</strong><br>no pacotinho de edamame crocante</mj-text>
+      </mj-column>
+      <mj-column padding-top="0px" padding-right="8px" padding-bottom="18px" padding-left="8px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-ca-icone-graos.png" alt="" width="57px" height="56px" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" line-height="21px" color="#ffffff" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"><strong style="font-size:16px;">Crocante sem fritura</strong><br>edamame assado e alga que não é frita</mj-text>
+      </mj-column>
+      <mj-column padding-top="0px" padding-right="8px" padding-bottom="18px" padding-left="8px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-ca-icone-estrela.png" alt="" width="58px" height="56px" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" line-height="21px" color="#ffffff" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"><strong style="font-size:16px;">Cabe na rotina</strong><br>na bolsa, no trabalho e no pós-treino</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#d4471a" padding-top="8px" padding-right="40px" padding-bottom="42px" padding-left="40px">
+      <mj-column>
+        <mj-button href="{{carrinho_url}}" background-color="#ffffff" color="#d4471a" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="16px 40px" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">VOLTAR PRO CARRINHO</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#571713" padding-top="34px" padding-right="40px" padding-bottom="36px" padding-left="40px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-cb-logo.png" alt="Repeat" width="100px" height="28px" align="center" href="https://repeatonline.com.br" padding-top="0px" padding-right="0px" padding-bottom="20px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700" line-height="20px" color="#f2e2dc" padding-top="0px" padding-right="0px" padding-bottom="18px" padding-left="0px"><a href="https://www.instagram.com/repeatfoods/" style="color:#f2e2dc;text-decoration:none;white-space:nowrap;">Instagram @repeatfoods</a> &nbsp;·&nbsp; <a href="https://wa.me/5511947947874" style="color:#f2e2dc;text-decoration:none;white-space:nowrap;">WhatsApp (11) 94794-7874</a></mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#d9b9ae" padding-top="0px" padding-right="0px" padding-bottom="10px" padding-left="0px">Kalena Importação Exportação e Comércio Ltda · CNPJ 10.293.200/0001-33<br>Av. Angélica, 2503, cj. 101 · São Paulo/SP · 01227-200</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#d9b9ae" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Você recebeu este e-mail porque deixou itens no carrinho da Repeat.<br><a href="{{link_optout}}" style="color:#d9b9ae;text-decoration:underline;">Não quero mais receber</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

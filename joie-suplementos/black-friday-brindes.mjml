@@ -1,0 +1,104 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (max-width:480px) {
+        .j-logo { padding-top:55px !important; }
+        .j-logo table, .j-logo td { width:115px !important; }
+        .j-logo img { width:115px !important; height:54px !important; }
+        .j-tit { padding-top:22px !important; }
+        .j-tit table, .j-tit td { width:225px !important; }
+        .j-tit img { width:225px !important; height:94px !important; }
+        .j-div { padding-top:10px !important; padding-bottom:9px !important; }
+        .j-div p { width:140px !important; }
+        .j-p1 { padding-top:6px !important; padding-bottom:8px !important; }
+        .j-p1 div { font-size:13.5px !important; line-height:16px !important; }
+        .j-p1 div div { max-width:244px !important; }
+        .j-card { padding-top:23px !important; padding-bottom:24px !important; }
+        .j-card div { font-size:22.5px !important; line-height:28px !important; }
+        .j-gtop { padding-top:23px !important; }
+        .j-gsp { height:9px !important; font-size:1px !important; line-height:9px !important; }
+        .j-ghdr { font-size:11.5px !important; line-height:13px !important; padding-top:7px !important; padding-bottom:7px !important; }
+        .j-gimg { padding-top:6px !important; }
+        .j-gimg img { width:88px !important; }
+        .j-glbl { font-size:11px !important; line-height:14px !important; padding-top:3px !important; padding-bottom:13px !important; }
+        .j-p2 { padding-top:33px !important; padding-bottom:14px !important; }
+        .j-p2 div { font-size:13px !important; line-height:15px !important; }
+        .j-p2 div div { max-width:248px !important; }
+        .j-q { padding-top:12px !important; }
+        .j-q div { font-size:22.5px !important; line-height:28px !important; }
+        .j-btn { padding-top:31px !important; }
+        .j-btn table { width:250px !important; }
+        .j-btn a { width:230px !important; font-size:14.5px !important; line-height:15px !important; padding:19px 10px 18px 10px !important; }
+        .j-ps { padding-top:12px !important; }
+        .j-ps div { font-size:12px !important; line-height:15px !important; }
+        .j-leg { padding-top:30px !important; }
+      }
+      @media only screen and (max-width:359px) {
+        .j-p1 div { font-size:12.5px !important; line-height:15px !important; }
+        .j-p1 div div { max-width:226px !important; }
+        .j-card div { font-size:20px !important; line-height:25px !important; }
+        .j-ghdr { font-size:10px !important; line-height:12px !important; }
+        .j-gimg img { width:75px !important; }
+        .j-glbl { font-size:10px !important; line-height:13px !important; }
+        .j-p2 div { font-size:12.5px !important; line-height:15px !important; }
+        .j-p2 div div { max-width:232px !important; }
+        .j-q div { font-size:20px !important; line-height:25px !important; }
+        .j-btn table { width:216px !important; }
+        .j-btn a { width:196px !important; font-size:13px !important; }
+        .j-ps div { font-size:11px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000" width="600px">
+
+    <mj-section background-color="#000000" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image css-class="j-logo" src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-logo.png" alt="Black Friday Joie" width="184px" height="86px" align="center" href="https://www.joiesuplementos.com.br/" padding-top="88px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+        <mj-image css-class="j-tit" src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-titulo.png" alt="A Black da Joie começou!" width="360px" height="150px" align="center" padding-top="36px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+        <mj-divider css-class="j-div" border-color="#e4e4e4" border-style="solid" border-width="1px" width="224px" align="center" padding-top="16px" padding-right="0px" padding-bottom="15px" padding-left="0px"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" background-url="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-fundo-texto.jpg" background-size="100% auto" background-position="center bottom" background-repeat="no-repeat" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-text css-class="j-p1" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20px" font-weight="300" line-height="25px" color="#ffffff" padding-top="9px" padding-right="24px" padding-bottom="14px" padding-left="24px"><div style="max-width:366px; margin:0 auto;"><strong style="font-weight:700;">E a primeira surpresa já está no ar:</strong> quanto mais você aproveita, melhor fica o seu presente. 🎁</div></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-produtos.jpg" alt="Cálcio, CreaGEN, Ômega 3 e Silk Protein da Joie" width="600px" href="https://www.joiesuplementos.com.br/produtos/c" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" background-url="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-fundo-card.jpg" background-size="100% auto" background-position="center top" background-repeat="no-repeat" padding-top="0px" padding-right="6.5%" padding-bottom="0px" padding-left="6.33%">
+      <mj-column background-color="#bfe132" border-radius="20px">
+        <mj-text css-class="j-card" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36px" font-weight="300" line-height="45px" letter-spacing="-1px" color="#131412" padding-top="37px" padding-right="10px" padding-bottom="39px" padding-left="10px">Nesta semana, suas<br>compras <strong style="font-weight:700;">desbloqueiam<br>brindes especiais:</strong></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-raw><tr><td style="padding:0;" class="fc-html-block"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="j-gtop" colspan="5" style="padding:37px 0 0 0; font-size:1px; line-height:1px;">&nbsp;</td></tr><tr><td width="33" style="width:5.5%;"></td><td width="260" valign="top" style="width:43.33%; background-color:#0b3823; border-radius:6px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="j-ghdr" align="center" style="background-color:#07301b; border-radius:6px 6px 0 0; padding:12px 4px 12px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:19px; line-height:20px; font-weight:300; color:#ffffff; text-align:center;">ACIMA DE R$199</td></tr><tr><td class="j-gimg" align="center" style="padding:10px 0 0 0;"><img src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-melatonina.png" width="140" alt="Mellatonz Joie" style="display:block; width:100%; max-width:140px; height:auto; margin:0 auto; border:0;"></td></tr><tr><td class="j-glbl" align="center" style="padding:5px 4px 21px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight:300; color:#ffffff; text-align:center;">Ganhe <strong style="font-weight:700;">Melatonina</strong></td></tr></table></td><td width="15" style="width:2.5%;"></td><td width="260" valign="top" style="width:43.33%; background-color:#0b3823; border-radius:6px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="j-ghdr" align="center" style="background-color:#07301b; border-radius:6px 6px 0 0; padding:12px 4px 12px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:19px; line-height:20px; font-weight:300; color:#ffffff; text-align:center;">ACIMA DE R$259,90</td></tr><tr><td class="j-gimg" align="center" style="padding:10px 0 0 0;"><img src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-hepro.png" width="140" alt="HEPRO Joie" style="display:block; width:100%; max-width:140px; height:auto; margin:0 auto; border:0;"></td></tr><tr><td class="j-glbl" align="center" style="padding:5px 4px 21px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight:300; color:#ffffff; text-align:center;">Ganhe <strong style="font-weight:700;">HEPRO</strong></td></tr></table></td><td width="32" style="width:5.34%;"></td></tr><tr><td class="j-gsp" colspan="5" style="height:14px; font-size:1px; line-height:14px;">&nbsp;</td></tr><tr><td width="33" style="width:5.5%;"></td><td width="260" valign="top" style="width:43.33%; background-color:#0b3823; border-radius:6px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="j-ghdr" align="center" style="background-color:#07301b; border-radius:6px 6px 0 0; padding:12px 4px 12px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:19px; line-height:20px; font-weight:300; color:#ffffff; text-align:center;">ACIMA DE R$299</td></tr><tr><td class="j-gimg" align="center" style="padding:10px 0 0 0;"><img src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-propolis.png" width="140" alt="Própolis Joie" style="display:block; width:100%; max-width:140px; height:auto; margin:0 auto; border:0;"></td></tr><tr><td class="j-glbl" align="center" style="padding:5px 4px 21px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight:300; color:#ffffff; text-align:center;">Ganhe <strong style="font-weight:700;">Própolis</strong></td></tr></table></td><td width="15" style="width:2.5%;"></td><td width="260" valign="top" style="width:43.33%; background-color:#0b3823; border-radius:6px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="j-ghdr" align="center" style="background-color:#07301b; border-radius:6px 6px 0 0; padding:12px 4px 12px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:19px; line-height:20px; font-weight:300; color:#ffffff; text-align:center;">ACIMA DE R$299</td></tr><tr><td class="j-gimg" align="center" style="padding:10px 0 0 0;"><img src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-kit-serum.png" width="140" alt="Kit Serum Joie Care" style="display:block; width:100%; max-width:140px; height:auto; margin:0 auto; border:0;"></td></tr><tr><td class="j-glbl" align="center" style="padding:5px 4px 21px 4px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight:300; color:#ffffff; text-align:center;">Ganhe <strong style="font-weight:700;">Kit Serum</strong></td></tr></table></td><td width="32" style="width:5.34%;"></td></tr></table></td></tr></mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-text css-class="j-p2" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19px" font-weight="300" line-height="24px" color="#ffffff" padding-top="53px" padding-right="24px" padding-bottom="22px" padding-left="24px"><div style="max-width:360px; margin:0 auto;">É a oportunidade de garantir os produtos que já fazem parte da sua rotina e ainda levar um cuidado extra para casa.</div></mj-text>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0968/7354/6003/files/joie-bfb-faixa.jpg" alt="Até 10x sem juros • +3% OFF no Pix • Frete grátis" width="600px" href="https://www.joiesuplementos.com.br/produtos/c" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+        <mj-text css-class="j-q" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36px" font-weight="300" line-height="45px" letter-spacing="-1px" color="#ffffff" padding-top="20px" padding-right="10px" padding-bottom="0px" padding-left="10px">Quanto maior o carrinho,<br><strong style="font-weight:700; color:#bfe132;">melhor o presente.</strong></mj-text>
+        <mj-button css-class="j-btn" href="https://www.joiesuplementos.com.br/produtos/c" background-color="#bfe132" color="#020302" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23px" font-weight="700" line-height="24px" letter-spacing="-0.5px" border-radius="4px" inner-padding="30px 10px 29px 10px" width="400px" align="center" padding-top="50px" padding-right="0px" padding-bottom="0px" padding-left="0px">ESCOLHER MEUS PRODUTOS</mj-button>
+        <mj-text css-class="j-ps" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18.5px" font-weight="700" font-style="italic" line-height="24px" color="#ffffff" padding-top="20px" padding-right="10px" padding-bottom="0px" padding-left="10px">Brindes enquanto durarem os estoques.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding-top="0px" padding-right="32px" padding-bottom="32px" padding-left="32px">
+      <mj-column>
+        <mj-text css-class="j-leg" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#8a8a8a" padding-top="48px" padding-right="0px" padding-bottom="8px" padding-left="0px"><span style="white-space:nowrap;">JOIE SUPLEMENTOS LTDA</span> · <span style="white-space:nowrap;">CNPJ 26.907.772/0001-03</span><br><span style="white-space:nowrap;">Rua Itapura, 1053</span> · <span style="white-space:nowrap;">Vila Gomes Cardim</span> · <span style="white-space:nowrap;">São Paulo/SP</span> · <span style="white-space:nowrap;">03310-000</span></mj-text>
+        <mj-text align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#8a8a8a" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Você recebeu este e-mail porque se cadastrou ou comprou na Joie Suplementos.<br><a href="{{link_optout}}" style="color:#bfe132; text-decoration:underline;">Não quero mais receber</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

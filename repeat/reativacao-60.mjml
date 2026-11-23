@@ -1,0 +1,87 @@
+<mjml>
+  <mj-body background-color="#f7eeea" width="600px">
+
+    <mj-section background-color="#a64208" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-re-hero-60.jpg" alt="Volta vai! 10% OFF em todos os produtos" width="600px" href="https://repeatonline.com.br/discount/VOLTA10?redirect=%2Fcollections%2Fall" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-if--primeiro_nome" background-color="#ffffff" padding-top="16px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24px" font-weight="700" line-height="30px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px">Oi, {{primeiro_nome}}!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-ifnot--primeiro_nome" background-color="#ffffff" padding-top="16px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24px" font-weight="700" line-height="30px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="12px" padding-left="0px">Oi!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0px" padding-right="48px" padding-bottom="26px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17px" line-height="27px" color="#571713" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">A gente subiu o seu desconto: agora são <strong>10% OFF em todos os produtos</strong>. É a desculpa que faltava pra voltar a repetir o que te faz bem.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="0px" padding-right="48px" padding-bottom="0px" padding-left="48px">
+      <mj-column background-color="#ffffff" border="2px dashed #d4471a" border-radius="18px" padding-top="22px" padding-right="12px" padding-bottom="22px" padding-left="12px">
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12px" font-weight="700" line-height="16px" letter-spacing="2.5px" color="#a64208" padding-top="0px" padding-right="0px" padding-bottom="8px" padding-left="0px">SEU CUPOM DE 10% OFF</mj-text>
+        <mj-text align="center" font-family="'HWT Artz', 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBold', 'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-size="42px" font-weight="700" line-height="48px" letter-spacing="2px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="8px" padding-left="0px"><span style="white-space:nowrap;">VOLTA10</span></mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14px" line-height="20px" color="#571713" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Em todos os produtos · 1 uso por cliente</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="24px" padding-right="48px" padding-bottom="40px" padding-left="48px">
+      <mj-column>
+        <mj-button href="https://repeatonline.com.br/discount/VOLTA10?redirect=%2Fcollections%2Fall" background-color="#d4471a" color="#ffffff" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="18px 24px" width="100%" padding-top="0px" padding-right="0px" padding-bottom="14px" padding-left="0px">USAR MEUS 10% OFF</mj-button>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" line-height="19px" color="#8a4b3f" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">O botão já aplica o cupom no carrinho. Se preferir, digite <strong>VOLTA10</strong> no checkout.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f2e2dc" padding-top="36px" padding-right="48px" padding-bottom="16px" padding-left="48px">
+      <mj-column>
+        <mj-text align="center" font-family="'HWT Artz', 'Helvetica Neue Condensed', 'HelveticaNeue-CondensedBold', 'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-size="32px" font-weight="700" line-height="36px" color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="6px" padding-left="0px">JÁ PROVOU ESSES?</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" line-height="22px" color="#571713" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Doce, salgado, crocante: tem Repeat pra toda vontade.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f2e2dc" padding-top="0px" padding-right="26px" padding-bottom="40px" padding-left="26px">
+      <mj-column padding-top="6px" padding-right="6px" padding-bottom="6px" padding-left="6px" inner-background-color="#ffffff" inner-border-radius="16px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-re-crispy.jpg" alt="Crispy de Chocolate com Quinoa" width="160px" href="https://repeatonline.com.br/products/crispy-de-quinoa-chocolate-meio-amargo-50g" padding-top="12px" padding-right="0px" padding-bottom="4px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" font-weight="700" line-height="20px" color="#571713" padding-top="0px" padding-right="10px" padding-bottom="2px" padding-left="10px">Crispy de Chocolate</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" line-height="18px" color="#8a4b3f" padding-top="0px" padding-right="10px" padding-bottom="12px" padding-left="10px">Com quinoa</mj-text>
+        <mj-button href="https://repeatonline.com.br/products/crispy-de-quinoa-chocolate-meio-amargo-50g" background-color="#d4471a" color="#ffffff" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="10px 24px" padding-top="0px" padding-right="0px" padding-bottom="18px" padding-left="0px">COMPRAR</mj-button>
+      </mj-column>
+      <mj-column padding-top="6px" padding-right="6px" padding-bottom="6px" padding-left="6px" inner-background-color="#ffffff" inner-border-radius="16px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-re-brownie.jpg" alt="Bombom de Brownie Zero Açúcar" width="160px" href="https://repeatonline.com.br/products/bombom-de-brownie-meio-amargo-repeat-zero-60g" padding-top="12px" padding-right="0px" padding-bottom="4px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" font-weight="700" line-height="20px" color="#571713" padding-top="0px" padding-right="10px" padding-bottom="2px" padding-left="10px">Bombom de Brownie</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" line-height="18px" color="#8a4b3f" padding-top="0px" padding-right="10px" padding-bottom="12px" padding-left="10px">Zero açúcar</mj-text>
+        <mj-button href="https://repeatonline.com.br/products/bombom-de-brownie-meio-amargo-repeat-zero-60g" background-color="#d4471a" color="#ffffff" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="10px 24px" padding-top="0px" padding-right="0px" padding-bottom="18px" padding-left="0px">COMPRAR</mj-button>
+      </mj-column>
+      <mj-column padding-top="6px" padding-right="6px" padding-bottom="6px" padding-left="6px" inner-background-color="#ffffff" inner-border-radius="16px">
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-re-ervilha.jpg" alt="Ervilha Crocante Wasabi" width="160px" href="https://repeatonline.com.br/products/snack-de-ervilha-wasabi-repeat-50g" padding-top="12px" padding-right="0px" padding-bottom="4px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" font-weight="700" line-height="20px" color="#571713" padding-top="0px" padding-right="10px" padding-bottom="2px" padding-left="10px">Ervilha Crocante</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" line-height="18px" color="#8a4b3f" padding-top="0px" padding-right="10px" padding-bottom="12px" padding-left="10px">Proteína e fibra</mj-text>
+        <mj-button href="https://repeatonline.com.br/products/snack-de-ervilha-wasabi-repeat-50g" background-color="#d4471a" color="#ffffff" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700" letter-spacing="1px" border-radius="40px" inner-padding="10px 24px" padding-top="0px" padding-right="0px" padding-bottom="18px" padding-left="0px">COMPRAR</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#d4471a" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-cb-manifesto.jpg" alt="Prazer que cabe na sua rotina." width="600px" href="https://repeatonline.com.br/discount/VOLTA10?redirect=%2Fcollections%2Fall" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#571713" padding-top="34px" padding-right="40px" padding-bottom="36px" padding-left="40px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0780/2290/1980/files/rep-cb-logo.png" alt="Repeat" width="100px" height="28px" align="center" href="https://repeatonline.com.br" padding-top="0px" padding-right="0px" padding-bottom="20px" padding-left="0px"></mj-image>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13px" font-weight="700" line-height="20px" color="#f2e2dc" padding-top="0px" padding-right="0px" padding-bottom="18px" padding-left="0px"><a href="https://www.instagram.com/repeatfoods/" style="color:#f2e2dc;text-decoration:none;white-space:nowrap;">Instagram @repeatfoods</a> &nbsp;·&nbsp; <a href="https://wa.me/5511947947874" style="color:#f2e2dc;text-decoration:none;white-space:nowrap;">WhatsApp (11) 94794-7874</a></mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#d9b9ae" padding-top="0px" padding-right="0px" padding-bottom="10px" padding-left="0px">Kalena Importação Exportação e Comércio Ltda · CNPJ 10.293.200/0001-33<br>Av. Angélica, 2503, cj. 101 · São Paulo/SP · 01227-200</mj-text>
+        <mj-text align="center" font-family="'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#d9b9ae" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Você recebeu este e-mail porque já comprou na Repeat.<br><a href="{{link_optout}}" style="color:#d9b9ae;text-decoration:underline;">Não quero mais receber</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

@@ -1,0 +1,149 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (max-width:480px) {
+        .ca-logo { padding-top:26px !important; padding-bottom:16px !important; }
+        .ca-logo table, .ca-logo td { width:96px !important; }
+        .ca-logo img { width:96px !important; height:29px !important; }
+        .ca-h1 { padding-left:20px !important; padding-right:20px !important; padding-bottom:10px !important; }
+        .ca-h1 div { font-size:27px !important; line-height:33px !important; }
+        .ca-div { padding-bottom:12px !important; }
+        .ca-div p { width:200px !important; }
+        .ca-p { padding-left:20px !important; padding-right:20px !important; padding-bottom:0px !important; }
+        .ca-p div { font-size:13.5px !important; line-height:17px !important; }
+        .ca-p div div { max-width:250px !important; }
+        .ca-oi { padding-top:12px !important; padding-bottom:4px !important; }
+        .ca-oi div { font-size:22px !important; line-height:27px !important; }
+        .ca-intro { padding-bottom:12px !important; }
+        .ca-intro div { font-size:13.5px !important; line-height:17px !important; }
+        .ca-t-lado { padding:0 14px !important; }
+        .ca-t-img { padding:10px 0 10px 10px !important; }
+        .ca-t-txt { padding:10px 12px 10px 12px !important; }
+        .ca-t-nome { font-size:14px !important; line-height:18px !important; padding-bottom:6px !important; }
+        .ca-t-info { font-size:12.5px !important; line-height:16px !important; }
+        .ca-t-lado2 { padding:14px 14px 0 !important; }
+        .ca-t-cup { padding:13px 8px 12px !important; }
+        .ca-t-cup1 { font-size:10.5px !important; line-height:14px !important; letter-spacing:1.5px !important; padding-bottom:3px !important; }
+        .ca-t-cup2 { font-size:31px !important; line-height:36px !important; padding-bottom:5px !important; }
+        .ca-t-cup3 { font-size:12px !important; line-height:16px !important; }
+        .ca-btn { padding-top:18px !important; padding-bottom:10px !important; }
+        .ca-btn table { width:216px !important; }
+        .ca-btn a { width:196px !important; font-size:15px !important; line-height:18px !important; padding:13px 10px !important; }
+        .ca-duv { padding-bottom:18px !important; }
+        .ca-duv div { font-size:12.5px !important; line-height:16px !important; }
+        .ca-h2 { padding-top:26px !important; padding-bottom:16px !important; }
+        .ca-h2 div { font-size:22px !important; line-height:27px !important; }
+        .ca-t-benef { width:63% !important; }
+        .ca-t-selo { width:66px !important; height:66px !important; margin-bottom:8px !important; }
+        .ca-t-sl { font-size:11px !important; line-height:13px !important; padding-bottom:6px !important; }
+        .ca-btn2 { padding-top:16px !important; padding-bottom:28px !important; }
+        .ca-btn2 table { width:216px !important; }
+        .ca-btn2 a { width:196px !important; font-size:15px !important; line-height:18px !important; padding:13px 10px !important; }
+        .ca-t-flogo { width:62px !important; height:19px !important; }
+        .ca-t-ftxt { font-size:11px !important; line-height:14px !important; padding-top:14px !important; padding-bottom:14px !important; }
+        .ca-t-fig { width:38px !important; height:38px !important; }
+      }
+      @media only screen and (max-width:359px) {
+        .ca-t-nome { font-size:13px !important; line-height:16px !important; }
+        .ca-t-info { font-size:11.5px !important; line-height:15px !important; }
+        .ca-t-cup2 { font-size:27px !important; line-height:32px !important; }
+        .ca-t-cup3 { font-size:11px !important; line-height:15px !important; }
+        .ca-t-ftxt { font-size:10px !important; line-height:13px !important; }
+        .ca-t-flogo { width:48px !important; height:15px !important; }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f1f2e4" width="600px">
+
+    <mj-section background-color="#c5de9b" background-url="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-ca-hero-fundo.jpg" background-size="cover" background-position="center bottom" background-repeat="no-repeat" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image css-class="ca-logo" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-logo.png" alt="Latam Fit" width="123px" height="37px" align="center" href="https://www.latamfit.com.br" padding-top="46px" padding-right="0px" padding-bottom="30px" padding-left="0px"></mj-image>
+        <mj-text css-class="ca-h1" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="42px" font-weight="700" line-height="52px" letter-spacing="-0.5px" color="#648247" padding-top="0px" padding-right="40px" padding-bottom="18px" padding-left="40px">Seu desconto subiu<br>para <span style="color:#bf4523;">15% OFF!</span></mj-text>
+        <mj-divider css-class="ca-div" border-color="#93b070" border-width="2px" width="330px" align="center" padding-top="0px" padding-right="0px" padding-bottom="22px" padding-left="0px"></mj-divider>
+        <mj-text css-class="ca-p" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17px" line-height="22px" color="#00401f" padding-top="0px" padding-right="24px" padding-bottom="11px" padding-left="24px"><div style="max-width:332px; margin:0 auto;">Seus itens continuam no carrinho, agora com mais desconto. É só voltar e usar o novo cupom.</div></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#cde7a4" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-ca-hero-produtos.jpg" alt="Barrinhas e wafers Latam Fit" width="600px" href="{{carrinho_url}}" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f1f2e4" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-image src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-ca-hero-borda.png" alt="" width="600px" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-if--primeiro_nome" background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4">
+        <mj-text css-class="ca-oi" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="35px" font-weight="700" line-height="42px" letter-spacing="-0.5px" color="#648247" padding-top="16px" padding-right="16px" padding-bottom="6px" padding-left="16px">Oi, {{primeiro_nome}}!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-ifnot--primeiro_nome" background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4">
+        <mj-text css-class="ca-oi" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="35px" font-weight="700" line-height="42px" letter-spacing="-0.5px" color="#648247" padding-top="16px" padding-right="16px" padding-bottom="6px" padding-left="16px">Oi!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-if--carrinho_produto_imagem" background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4">
+        <mj-text css-class="ca-intro" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17px" line-height="22px" color="#648247" padding-top="0px" padding-right="24px" padding-bottom="20px" padding-left="24px">Olha o que você deixou no carrinho:</mj-text>
+        <mj-raw><tr><td style="padding:0;" class="fc-html-block"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="ca-t-lado" style="padding:0 24px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; background-color:#fefdfd; border-radius:14px;"><tr><td class="ca-t-img" width="170" valign="middle" align="center" style="width:34%; padding:16px 0 16px 16px;"><a href="{{carrinho_url}}" target="_blank"><img src="{{carrinho_produto_imagem}}" width="160" alt="{{carrinho_produto_nome}}" style="display:block; width:100%; max-width:160px; height:auto; margin:0 auto; border:0; outline:none;"></a></td><td class="ca-t-txt" valign="middle" align="left" style="padding:16px 24px 16px 20px; text-align:left;"><div class="ca-t-nome" style="padding-bottom:10px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:19px; font-weight:700; line-height:25px; color:#648247;">{{carrinho_produto_nome}}</div><div class="ca-t-info" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:23px; color:#00401f;">Itens no carrinho: <strong>{{carrinho_qtd_itens}}</strong><br>Total sem cupom: <strong style="white-space:nowrap;">{{carrinho_total}}</strong></div></td></tr></table></td></tr></table></td></tr></mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="fc-ifnot--carrinho_produto_imagem" background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4">
+        <mj-text css-class="ca-intro" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17px" line-height="22px" color="#648247" padding-top="0px" padding-right="24px" padding-bottom="0px" padding-left="24px">Seu carrinho continua do jeitinho que você deixou.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4">
+        <mj-raw><tr><td style="padding:0;" class="fc-html-block"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td class="ca-t-lado2" style="padding:20px 24px 0;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; background-color:#fefdfd; border:2px dashed #648247; border-radius:14px; border-collapse:separate; border-spacing:0;"><tr><td class="ca-t-cup" align="center" style="padding:20px 12px 18px; text-align:center;"><div class="ca-t-cup1" style="padding-bottom:6px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:13px; font-weight:700; line-height:17px; letter-spacing:2px; color:#648247;">SEU CUPOM DE 15% OFF</div><div class="ca-t-cup2" style="padding-bottom:8px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:38px; font-weight:700; line-height:44px; color:#bf4523;">CARRINHO15</div><div class="ca-t-cup3" style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; line-height:19px; color:#648247;">Digite no checkout, no campo de desconto.<br>Não acumula com outras promoções.</div></td></tr></table></td></tr></table></td></tr></mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f5f7" padding-top="0px" padding-right="16px" padding-bottom="0px" padding-left="17px">
+      <mj-column background-color="#f1f2e4" border-radius="0 0 14px 14px">
+        <mj-button css-class="ca-btn" href="{{carrinho_url}}" background-color="#648247" color="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20px" font-weight="400" line-height="24px" border-radius="6px" inner-padding="18px 10px" width="310px" align="center" padding-top="28px" padding-right="0px" padding-bottom="16px" padding-left="0px">FINALIZAR COM 15% OFF</mj-button>
+        <mj-text css-class="ca-duv" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15px" line-height="20px" color="#648247" padding-top="0px" padding-right="16px" padding-bottom="30px" padding-left="16px">Ficou com alguma dúvida? <a href="https://wa.me/5534997121131" target="_blank" style="color:#648247; font-weight:700; text-decoration:underline;">Chama a gente no WhatsApp</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f5f7" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-text css-class="ca-h2" align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="35px" font-weight="700" line-height="42px" letter-spacing="-0.5px" color="#648247" padding-top="42px" padding-right="24px" padding-bottom="28px" padding-left="24px">Mais motivos para finalizar</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f5f7" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-raw><tr><td style="padding:0;" class="fc-html-block"><table class="ca-t-benef" role="presentation" align="center" width="378" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:378px; margin:0 auto;"><tr><td class="ca-t-sl" width="126" valign="top" align="center" style="width:33.33%; padding:0 0 10px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:19px; color:#648247; text-align:center;"><img class="ca-t-selo" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-selo-1-v2.png" width="104" height="104" alt="" style="display:block; width:104px; height:104px; margin:0 auto 14px; border:0; outline:none;">Frete grátis<br>acima de<br>R$&nbsp;99</td><td class="ca-t-sl" width="126" valign="top" align="center" style="width:33.34%; padding:0 0 10px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:19px; color:#648247; text-align:center;"><img class="ca-t-selo" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-selo-2-v2.png" width="104" height="104" alt="" style="display:block; width:104px; height:104px; margin:0 auto 14px; border:0; outline:none;">Direto<br>da<br>fábrica</td><td class="ca-t-sl" width="126" valign="top" align="center" style="width:33.33%; padding:0 0 10px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:19px; color:#648247; text-align:center;"><img class="ca-t-selo" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-selo-3-v2.png" width="104" height="104" alt="" style="display:block; width:104px; height:104px; margin:0 auto 14px; border:0; outline:none;">Pix ou<br>até 3x<br>sem juros</td></tr></table></td></tr></mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f8f5f7" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">
+      <mj-column>
+        <mj-button css-class="ca-btn2" href="{{carrinho_url}}" background-color="#648247" color="#ffffff" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20px" font-weight="400" line-height="24px" border-radius="6px" inner-padding="18px 10px" width="310px" align="center" padding-top="24px" padding-right="0px" padding-bottom="46px" padding-left="0px">VOLTAR AO CARRINHO</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#648247" border-radius="0 0 12px 12px" padding-top="0px" padding-right="31px" padding-bottom="0px" padding-left="31px">
+      <mj-column>
+        <mj-raw><tr><td style="padding:0;" class="fc-html-block"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;"><tr><td width="104" valign="middle" align="center" style="width:19.33%;"><a href="https://www.latamfit.com.br" target="_blank"><img class="ca-t-flogo" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-logo-branco.png" width="100" height="30" alt="Latam Fit" style="display:block; width:100%; max-width:100px; height:auto; margin:0 auto; border:0; outline:none; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; color:#ffffff;"></a></td><td class="ca-t-ftxt" width="325" valign="middle" align="center" style="width:60.41%; padding:30px 0 32px; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px; line-height:20px; color:#ffffff; text-align:center;">Latam Fit · Uberlândia, MG ·<br><a href="https://wa.me/5534997121131" target="_blank" style="color:#ffffff; text-decoration:none;">WhatsApp (34)&nbsp;99712-1131</a>, de<br>segunda a sexta, das 9h às 17h</td><td width="109" valign="middle" align="center" style="width:20.26%;"><a href="https://www.instagram.com/latam.fit/" target="_blank"><img class="ca-t-fig" src="https://cdn.shopify.com/s/files/1/0829/8731/9551/files/lf-lg-instagram-v2.png" width="60" height="60" alt="Instagram @latam.fit" style="display:block; width:100%; max-width:60px; height:auto; margin:0 auto; border:0; outline:none;"></a></td></tr></table></td></tr></mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" padding-right="32px" padding-bottom="28px" padding-left="32px">
+      <mj-column>
+        <mj-text align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#7d8a6f" padding-top="0px" padding-right="0px" padding-bottom="8px" padding-left="0px">Latam Fit · Rua José Elias, 71, sala 116<br>Uberlândia/MG · 38411-217<br><a href="mailto:sac@latamfit.com.br" style="color:#7d8a6f; text-decoration:underline;">sac@latamfit.com.br</a></mj-text>
+        <mj-text align="center" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11px" line-height="17px" color="#7d8a6f" padding-top="0px" padding-right="0px" padding-bottom="0px" padding-left="0px">Você recebeu este e-mail porque deixou itens no carrinho da Latam Fit.<br><a href="{{link_optout}}" style="color:#648247; text-decoration:underline;">Não quero mais receber</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

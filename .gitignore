@@ -1,0 +1,12 @@
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+tools/_render*/
+tools/bin/
+_render/
+.claude/skills/email-flash-crm/scripts/
+docs/emails-flash-crm.html
+docs/*.zip
+__pycache__/

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <title>Não deixe a sua rotina perder o ritmo</title>
+    <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+
+    <style>
+        html,
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        img {
+            border: 0;
+            outline: none;
+            line-height: 100%;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Poppins saiu da lista: sem tag link de webfont ela nunca carregava, e a plataforma
+           transformava o nome dela num mj-font malformado, quebrando o build. */
+        .f {
+            font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+        }
+
+        /*
+           599 e não 600: o e-mail tem exatamente 600px de largura, e vários clientes renderizam
+           num viewport de 600px cravados. Com max-width:600px a regra dispara no desktop e o
+           layout mobile aparece onde não devia.
+        */
+        @media only screen and (max-width:599px) {
+            .wrap {
+                width: 100% !important;
+            }
+
+            .fluid {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .pad {
+                padding-left: 22px !important;
+                padding-right: 22px !important;
+            }
+
+            .oi {
+                font-size: 22px !important;
+            }
+
+            .lead {
+                font-size: 17px !important;
+            }
+
+            .h1 {
+                font-size: 28px !important;
+            }
+
+            .h2 {
+                font-size: 23px !important;
+            }
+
+            .card-pad {
+                padding: 12px !important;
+            }
+
+            .card-thumb {
+                width: 92px !important;
+            }
+
+            .card-thumb img {
+                width: 92px !important;
+            }
+
+            .prod-nome {
+                font-size: 17px !important;
+            }
+
+            .prod-desc {
+                font-size: 13px !important;
+            }
+
+            .buy a {
+                padding: 13px 16px !important;
+                font-size: 12.5px !important;
+            }
+
+            .btn-final a {
+                display: block !important;
+                font-size: 17px !important;
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+
+        }
+
+        /* só aqui as 3 pílulas de benefício empilham: acima disso elas cabem lado a lado */
+        @media only screen and (max-width:460px) {
+            .pill {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                padding: 5px 0 !important;
+                text-align: center !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#faf6fd;">
+
+    <!-- preheader -->
+    <div style="display:none; max-height:0; overflow:hidden; opacity:0; mso-hide:all;">Faz um tempinho desde a sua última compra — suas gummies devem estar acabando.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div>
+
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf6fd;">
+        <tr>
+            <td align="center" style="padding:0;">
+
+                <table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px;">
+
+                    <!-- ============ MARQUEE DE SELOS ============ -->
+                    <tr>
+                        <td align="center" bgcolor="#dbcfed" style="background-color:#dbcfed; font-size:0; line-height:0;">
+                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/marquee-topo_86764102-d368-469f-8a4a-36b28fba8706.png?v=1786678067" width="600" alt="100% natural · Zero açúcar · Sem glúten · Corantes naturais" class="fluid" style="display:block; width:100%; max-width:600px; height:auto;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" bgcolor="#9d6bb6" style="background-color:#9d6bb6; font-size:0; line-height:0;">
+                            <a href="https://sejanuma.com.br/" target="_blank">
+                                <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/hero-full.png?v=1786678067" width="600" alt="Não deixe a sua rotina perder o ritmo — repor minhas gummies" class="fluid" style="display:block; width:100%; max-width:600px; height:auto;">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- ============ SAUDAÇÃO ============ -->
+                    <tr>
+                        <td align="center" class="pad f" style="padding:40px 48px 0 48px;">
+                            <div class="oi" style="font-size:26px; line-height:1.4; font-weight:600; color:#8c4098;">Eii {{nome_cliente}},</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="pad f lead" style="padding:12px 48px 40px 48px; font-size:20px; line-height:1.4; color:#4a4360;">
+                            Faz um tempinho desde a sua última compra, talvez suas gummies <strong style="font-weight:600;">estejam acabando</strong>.
+                        </td>
+                    </tr>
+
+                    <!-- ============ FOTO ============ -->
+                    <tr>
+                        <td align="center" style="font-size:0; line-height:0;">
+                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/foto-meio.png?v=1786678067" width="600" alt="" class="fluid" style="display:block; width:100%; max-width:600px; height:auto;">
+                        </td>
+                    </tr>
+
+                    <!-- ============ REFORÇO ============ -->
+                    <tr>
+                        <td align="center" class="pad f lead" style="padding:8px 48px 24px 48px; font-size:20px; line-height:1.4; color:#4a4360;">
+                            Leva <strong style="font-weight:600;">menos de 1 minuto</strong> para garantir o próximo potinho.
+                        </td>
+                    </tr>
+
+                    <!-- ============ CHAMADA DOS PRODUTOS ============ -->
+                    <tr>
+                        <td align="center" class="pad f" style="padding:0 48px 40px 48px;">
+                            <div class="h1" style="font-size:37px; line-height:1.1; font-weight:800; letter-spacing:0.37px; color:#1a1330;">
+                                Escolha sua<br><span style="color:#8c4098;">próxima gummy</span>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- ============ PRODUTOS ============ -->
+                    <tr>
+        
+                        <td class="pad" bgcolor="#f0e9f8" style="background-color:#f0e9f8; background:linear-gradient(180deg, #faf6fd 0%, #f2ecf9 55%, #e6ddf2 100%); padding:0 70px 56px 70px;">
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f6f4ed; border:1.5px solid #e7dfd0; border-radius:16px;">
+                                <tr>
+                                    <td class="card-pad" style="padding:12px 16px;">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="card-thumb" width="129" valign="middle" style="width:129px;">
+                                                    <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/prod-fibras.png?v=1786678068" width="129" alt="Fibras" style="display:block; width:129px; height:auto;">
+                                                </td>
+                                                <td width="20" style="width:20px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="center" class="f">
+                                                    <div class="prod-nome" style="font-size:20px; line-height:1.3; font-weight:600; color:#4a4360;">Fibras</div>
+                                                    <div class="prod-desc" style="font-size:14px; line-height:1.2; color:#4a4360; padding-top:4px;">Intestino<br>mais regulado</div>
+                                                </td>
+                                                <td width="12" style="width:12px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="right" class="buy" style="width:131px;">
+                                                    <a href="https://sejanuma.com.br/products/prebiotic-superfood" target="_blank" class="f" style="display:inline-block; background-color:#8c4098; border-radius:100px; color:#f7f4ed; font-size:14px; font-weight:600; line-height:1; padding:17px 26px; text-decoration:none; text-transform:uppercase; white-space:nowrap;">Comprar</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td height="16" style="height:16px; line-height:16px; font-size:0;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f6f4ed; border:1.5px solid #e7dfd0; border-radius:16px;">
+                                <tr>
+                                    <td class="card-pad" style="padding:12px 16px;">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="card-thumb" width="129" valign="middle" style="width:129px;">
+                                                    <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/prod-creatina.png?v=1786678067" width="129" alt="Creatina" style="display:block; width:129px; height:auto;">
+                                                </td>
+                                                <td width="20" style="width:20px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="center" class="f">
+                                                    <div class="prod-nome" style="font-size:20px; line-height:1.3; font-weight:600; color:#4a4360;">Creatina</div>
+                                                    <div class="prod-desc" style="font-size:14px; line-height:1.2; color:#4a4360; padding-top:4px;">Aumentar<br>performance</div>
+                                                </td>
+                                                <td width="12" style="width:12px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="right" class="buy" style="width:131px;">
+                                                    <a href="https://sejanuma.com.br/products/creatina-em-gummie" target="_blank" class="f" style="display:inline-block; background-color:#8c4098; border-radius:100px; color:#f7f4ed; font-size:14px; font-weight:600; line-height:1; padding:17px 26px; text-decoration:none; text-transform:uppercase; white-space:nowrap;">Comprar</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td height="16" style="height:16px; line-height:16px; font-size:0;">&nbsp;</td>
+                                </tr>
+                            </table>
+
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f6f4ed; border:1.5px solid #e7dfd0; border-radius:16px;">
+                                <tr>
+                                    <td class="card-pad" style="padding:12px 16px;">
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="card-thumb" width="129" valign="middle" style="width:129px;">
+                                                    <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/prod-gaba.png?v=1786678067" width="129" alt="Gaba" style="display:block; width:129px; height:auto;">
+                                                </td>
+                                                <td width="20" style="width:20px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="center" class="f">
+                                                    <div class="prod-nome" style="font-size:20px; line-height:1.3; font-weight:600; color:#4a4360;">Gaba</div>
+                                                    <div class="prod-desc" style="font-size:14px; line-height:1.2; color:#4a4360; padding-top:4px;">Para acalmar<br>a mente</div>
+                                                </td>
+                                                <td width="12" style="width:12px; font-size:0; line-height:0;">&nbsp;</td>
+                                                <td valign="middle" align="right" class="buy" style="width:131px;">
+                                                    <a href="https://sejanuma.com.br/products/gaba-relax" target="_blank" class="f" style="display:inline-block; background-color:#8c4098; border-radius:100px; color:#f7f4ed; font-size:14px; font-weight:600; line-height:1; padding:17px 26px; text-decoration:none; text-transform:uppercase; white-space:nowrap;">Comprar</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <!-- ============ BENEFÍCIOS ============ -->
+                    <tr>
+                        <td class="pad" bgcolor="#e1d6ef" style="background-color:#e1d6ef; background:linear-gradient(180deg, #e6ddf2 0%, #dbcfed 100%); padding:0 41px 40px 41px;">
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+                                <tr>
+                                    <td class="pill" width="34%" align="center" valign="middle" style="width:34%; padding:0 3px; font-size:0; line-height:0;">
+                                        <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/pill-adocante.png?v=1786678369" width="176" alt="Adoçante natural" style="display:block; width:100%; max-width:176px; height:auto; margin:0 auto;">
+                                    </td>
+                                    <td class="pill" width="33%" align="center" valign="middle" style="width:33%; padding:0 3px; font-size:0; line-height:0;">
+                                        <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/pill-corante.png?v=1786678382" width="168" alt="Corante natural" style="display:block; width:100%; max-width:168px; height:auto; margin:0 auto;">
+                                    </td>
+                                    <td class="pill" width="33%" align="center" valign="middle" style="width:33%; padding:0 3px; font-size:0; line-height:0;">
+                                        <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/pill-prazer.png?v=1786678397" width="154" alt="Prazer diário" style="display:block; width:100%; max-width:154px; height:auto; margin:0 auto;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- ============ DIVISOR + CTA FINAL ============ -->
+                    <tr>
+                        <td bgcolor="#dbcfed" style="background-color:#dbcfed; padding:0 40px;">
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td height="1" style="height:1px; line-height:1px; font-size:0; background-color:#c3aed8;">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="pad" bgcolor="#dbcfed" style="background-color:#dbcfed; padding:64px 41px;">
+
+                            <div class="f h2" style="font-size:30px; line-height:1.1; font-weight:800; letter-spacing:0.3px; color:#1a1330; padding-bottom:32px;">
+                                Não fique sem o suplemento que <span style="color:#8c4098;">seu corpo precisa!</span>
+                            </div>
+
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+                                <tr>
+                                    <td align="center" class="btn-final">
+                                        <!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://sejanuma.com.br/" style="height:64px; v-text-anchor:middle; width:377px;" arcsize="50%" strokecolor="#773b79" strokeweight="2px" fillcolor="#d6fe92">
+                                          <w:anchorlock/>
+                                          <center style="color:#5a2747; font-family:'Trebuchet MS',Helvetica,Arial,sans-serif; font-size:20px; font-weight:bold;">Repor minhas gummies</center>
+                                        </v:roundrect>
+                                        <![endif]-->
+                                        <!--[if !mso]><!-- -->
+                                        <a href="https://sejanuma.com.br/" target="_blank" class="f" style="display:inline-block; width:313px; background-color:#d6fe92; border:2px solid #773b79; border-radius:100px; color:#5a2747; font-size:20px; font-weight:600; line-height:1; padding:22px 32px; text-align:center; text-decoration:none;">Repor minhas gummies</a>
+                                        <!--<![endif]-->
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <!-- ============ RODAPÉ ============ -->
+                    <tr>
+                        <td align="center" class="pad" bgcolor="#8c4098" style="background-color:#8c4098; padding:64px 64px 40px 64px;">
+
+                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/logo-rodape.png?v=1786678067" width="312" alt="Nüma · Superfood Gummies" class="fluid" style="display:block; width:312px; max-width:100%; height:auto;">
+
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0 auto;">
+                                <tr>
+                                    <td style="padding:56px 8px 0 0;">
+                                        <a href="https://www.instagram.com/seja.numa" target="_blank">
+                                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/social-ig.png?v=1786678067" width="48" height="48" alt="Instagram" style="display:block; width:48px; height:48px;">
+                                        </a>
+                                    </td>
+                                    <td style="padding:56px 8px 0 8px;">
+                                        <a href="https://x.com/sejanuma" target="_blank">
+                                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/social-x.png?v=1786678067" width="48" height="48" alt="X" style="display:block; width:48px; height:48px;">
+                                        </a>
+                                    </td>
+                                    <td style="padding:56px 0 0 8px;">
+                                        <a href="https://www.tiktok.com/@seja.numa" target="_blank">
+                                            <img src="https://cdn.shopify.com/s/files/1/0764/2031/7229/files/social-tiktok.png?v=1786678067" width="48" height="48" alt="TikTok" style="display:block; width:48px; height:48px;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" class="pad f" bgcolor="#8c4098" style="background-color:#8c4098; padding:0 48px 40px 48px; font-size:11px; line-height:1.7; color:#e2c9e9;">
+                            Enviado para {{email}}<br>
+                            <a href="%UNSUBSCRIBELINK%" target="_blank" style="color:#d6fe92; text-decoration:none; font-weight:600;">Cancelar inscrição</a>
+                            <span style="color:#d6fe92;">&nbsp;·&nbsp;</span>
+                            <a href="%LINK_PREFERENCIAS%" target="_blank" style="color:#d6fe92; text-decoration:none; font-weight:600;">Preferências de e-mail</a><br>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
